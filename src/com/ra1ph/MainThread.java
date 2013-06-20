@@ -58,9 +58,8 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
         conn = mysqlConnect();
         connectionConfig(ProviderManager.getInstance());
         ConnectionConfiguration config = new ConnectionConfiguration(HOSTNAME, 5222, HOSTNAME);
-        connection = new XMPPConnection(config);
 
-        connect(user,pass);
+        connection = new XMPPConnection(config);
 
         while(isActive){
             if(!connection.isConnected())connect(user, pass);
