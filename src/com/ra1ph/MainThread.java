@@ -59,21 +59,19 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
         connectionConfig(ProviderManager.getInstance());
         ConnectionConfiguration config = new ConnectionConfiguration(HOSTNAME, 5222, HOSTNAME);
         connection = new XMPPConnection(config);
-        try {
-            connection.connect();
-            connection.login(user, pass);
 
-            fManager = new FileTransferManager(connection);
-
-            connection.addPacketListener(this,null);
-
-            fManager.addFileTransferListener(this);
-
-        } catch (XMPPException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
+        connect(user,pass);
 
         while(isActive){
+            if(!connection.isConnected())connect(user, pass);
+            if(!connection.isAuthenticated()){
+                try {
+                    connection.login(user, pass);
+                } catch (XMPPException e) {
+                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                }
+
+            }
             try {
                 Thread.sleep(SLEEP_TIME);
             } catch (InterruptedException e) {
@@ -81,6 +79,22 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
             }
         }
 
+    }
+
+    private void connect(String user, String pass){
+        try {
+            connection.connect();
+
+        connection.login(user, pass);
+
+        fManager = new FileTransferManager(connection);
+
+        connection.addPacketListener(this,null);
+
+        fManager.addFileTransferListener(this);
+        } catch (XMPPException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
     }
 
     private Connection mysqlConnect(){
