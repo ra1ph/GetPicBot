@@ -62,11 +62,15 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
         connection = new XMPPConnection(config);
 
         while(isActive){
-            if(!connection.isConnected())connect(user, pass);
+            if(!connection.isConnected()) try {
+                connect(user, pass);
+            } catch (Exception e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
             if(!connection.isAuthenticated()){
                 try {
                     connection.login(user, pass);
-                } catch (XMPPException e) {
+                } catch (Exception e) {
                     e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
                 }
 
@@ -80,8 +84,7 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
 
     }
 
-    private void connect(String user, String pass){
-        try {
+    private void connect(String user, String pass) throws XMPPException {
             connection.connect();
 
         connection.login(user, pass);
@@ -91,9 +94,6 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
         connection.addPacketListener(this,null);
 
         fManager.addFileTransferListener(this);
-        } catch (XMPPException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
     }
 
     private Connection mysqlConnect(){

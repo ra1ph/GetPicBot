@@ -28,7 +28,7 @@
     <file path="$PROJECT_DIR$/../GetPic/GetPic/src/com/ra1ph/getpic/service/GetpicIQProvider.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371629412424" ignored="false" />
     <file path="/GetpicIQProvider.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371630742549" ignored="false" />
     <file path="/fragment.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371637844528" ignored="false" />
-    <file path="/Dummy.txt" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371750887177" ignored="false" />
+    <file path="/Dummy.txt" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371751313465" ignored="false" />
     <file path="$PROJECT_DIR$/../millionagents-android/src/ru/millionagents/TaskDetailActivity.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
     <file path="$PROJECT_DIR$/../millionagents-android/src/ru/millionagents/StartActivity.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
     <file path="$PROJECT_DIR$/../millionagents-android/src/ru/millionagents/api/request/DownloadTaskRequest.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
@@ -123,10 +123,10 @@
       <file leaf-file-name="MainThread.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ra1ph/MainThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="28" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.25373134">
+            <state line="57" column="8" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.021144278">
               <folding>
-                <element signature="e#4506#6087#0" expanded="true" />
-                <element signature="e#6072#6073#0" expanded="true" />
+                <element signature="e#4541#6122#0" expanded="true" />
+                <element signature="e#6107#6108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -389,7 +389,11 @@
       <created>1371729062933</created>
       <updated>1371729062933</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[fix] error mysql2">
+      <created>1371751320233</created>
+      <updated>1371751320233</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -429,8 +433,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14262562" sideWeight="0.67134506" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32865497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14262562" sideWeight="0.67141163" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,8 +529,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="60" selection-start="3283" selection-end="3283" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#4506#6087#0" expanded="true" />
-            <element signature="e#6072#6073#0" expanded="true" />
+            <element signature="e#4541#6122#0" expanded="true" />
+            <element signature="e#6107#6108#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -547,8 +551,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="148" column="104" selection-start="5881" selection-end="5881" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#4506#6087#0" expanded="true" />
-            <element signature="e#6072#6073#0" expanded="true" />
+            <element signature="e#4541#6122#0" expanded="true" />
+            <element signature="e#6107#6108#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -564,8 +568,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="151" column="164" selection-start="5997" selection-end="6125" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#4506#6087#0" expanded="true" />
-            <element signature="e#6072#6073#0" expanded="true" />
+            <element signature="e#4541#6122#0" expanded="true" />
+            <element signature="e#6107#6108#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -613,10 +617,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/MainThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="28" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.25373134">
+        <state line="57" column="8" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.021144278">
           <folding>
-            <element signature="e#4506#6087#0" expanded="true" />
-            <element signature="e#6072#6073#0" expanded="true" />
+            <element signature="e#4541#6122#0" expanded="true" />
+            <element signature="e#6107#6108#0" expanded="true" />
           </folding>
         </state>
       </provider>
