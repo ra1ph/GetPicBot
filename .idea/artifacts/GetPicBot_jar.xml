@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GetPicBot:jar">
+    <output-path>$PROJECT_DIR$/libs/GetPicBot_jar</output-path>
+    <root id="archive" name="GetPicBot.jar">
+      <element id="module-output" name="GetPicBot" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/smackx.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/smack.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/mysql.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
