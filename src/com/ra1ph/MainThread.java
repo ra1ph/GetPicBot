@@ -54,7 +54,6 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
 
         dir = new File("cacheFiles");
         dir.mkdir();
-
         conn = mysqlConnect();
         connectionConfig(ProviderManager.getInstance());
         ConnectionConfiguration config = new ConnectionConfiguration(HOSTNAME, 5222, HOSTNAME);
@@ -104,12 +103,14 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
         connInfo.put("user", MYSQL_LOGIN);
         connInfo.put("password", MYSQL_PASS);
 
+        while(isActive){
         try {
-            return DriverManager.getConnection("jdbc:mysql://"+HOSTNAME+"/openfire",connInfo);
-
+            Connection connection = DriverManager.getConnection("jdbc:mysql://"+HOSTNAME+"/openfire",connInfo);
+            return connection;
         } catch (SQLException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             return null;
+        }
         }
     }
 

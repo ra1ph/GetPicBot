@@ -14,7 +14,7 @@
     <ignored path="GetPicBot.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371554555712" ignored="false" />
-    <file path="/MainThread.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371731369020" ignored="false" />
+    <file path="/MainThread.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371792365306" ignored="false" />
     <file path="$USER_HOME$/git/GetPic/GetPic/src/com/ra1ph/getpic/service/XMPPTask.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371634966843" ignored="false" />
     <file path="/XMPPTask.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371634954577" ignored="false" />
     <file path="$USER_HOME$/git/GetPic/GetPic/src/com/ra1ph/getpic/service/XMPPService.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371623406268" ignored="false" />
@@ -28,7 +28,7 @@
     <file path="$USER_HOME$/git/GetPic/GetPic/src/com/ra1ph/getpic/service/GetpicIQProvider.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371629412424" ignored="false" />
     <file path="/GetpicIQProvider.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371630742549" ignored="false" />
     <file path="/fragment.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371637844528" ignored="false" />
-    <file path="/Dummy.txt" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371731228425" ignored="false" />
+    <file path="/Dummy.txt" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371792166652" ignored="false" />
     <file path="$USER_HOME$/git/millionagents-android/src/ru/millionagents/TaskDetailActivity.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
     <file path="$USER_HOME$/git/millionagents-android/src/ru/millionagents/StartActivity.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
     <file path="$USER_HOME$/git/millionagents-android/src/ru/millionagents/api/request/DownloadTaskRequest.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
@@ -123,7 +123,7 @@
       <file leaf-file-name="MainThread.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ra1ph/MainThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="67" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.39583334">
+            <state line="108" column="30" selection-start="3499" selection-end="3499" vertical-scroll-proportion="0.51960784">
               <folding />
             </state>
           </provider>
@@ -204,7 +204,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,6 +289,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,7 +404,11 @@
       <created>1371729062933</created>
       <updated>1371729062933</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[fix] error mysql2">
+      <created>1371731512594</created>
+      <updated>1371731512594</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -429,7 +433,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="-8" width="1296" height="1012" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32865497" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -444,7 +448,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14262562" sideWeight="0.67134506" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14262562" sideWeight="0.67134506" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32865497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -617,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/MainThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="67" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.39583334">
+        <state line="108" column="30" selection-start="3499" selection-end="3499" vertical-scroll-proportion="0.51960784">
           <folding />
         </state>
       </provider>
