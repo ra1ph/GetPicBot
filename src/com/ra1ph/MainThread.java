@@ -30,7 +30,7 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
     private static final int SUCCESS=0;
 
     private static final String MYSQL_LOGIN="root";
-    private static final String MYSQL_PASS="root";
+    private static final String MYSQL_PASS="kh036Kh3Nb";
 
     private static String HOSTNAME = "localhost";
     private static String user = "getpicbot";
