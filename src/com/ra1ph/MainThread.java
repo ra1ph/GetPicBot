@@ -30,7 +30,7 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
     private static final int SUCCESS=0;
 
     private static final String MYSQL_LOGIN="root";
-    private static final String MYSQL_PASS="kh036Kh3Nb";
+    private static final String MYSQL_PASS="root";
 
     private static String HOSTNAME = "localhost";
     private static String user = "getpicbot";
@@ -63,14 +63,18 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
         while(isActive){
             if(!connection.isConnected()) try {
                 connect(user, pass);
+                if(connection!=null)System.out.println("Connection to XMPP SUCCESS!!");
             } catch (Exception e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                if(connection!=null)System.out.println("Connection to XMPP FAIL!!");
             }
             if(!connection.isAuthenticated()){
                 try {
                     connection.login(user, pass);
+                    if(connection!=null)System.out.println("Loign SUCCESS!!");
                 } catch (Exception e) {
                     e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                    if(connection!=null)System.out.println("Login FAIL!!");
                 }
 
             }
@@ -105,12 +109,14 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
         while(isActive){
         try {
             Connection connection = DriverManager.getConnection("jdbc:mysql://"+HOSTNAME+"/openfire",connInfo);
+            if(connection!=null)System.out.println("Connection to MySQL SUCCESS!!");
             return connection;
         } catch (SQLException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-            return null;
+            if(connection!=null)System.out.println("Connection to MySQL FAIL!!");
         }
         }
+        return null;
     }
 
     @Override
