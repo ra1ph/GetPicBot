@@ -32,16 +32,16 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
     private static final int SUCCESS = 0;
 
     private static final String MYSQL_LOGIN = "root";
-    private static final String MYSQL_PASS = "root";
+    private static final String MYSQL_PASS = "kh036Kh3Nb";
     private static final String MYSQL_HOSTNAME = "127.0.0.1";
     public static final String ACTION_TAG = "action";
 
     public static final String GET_PHOTO_TAG = "get_photo";
     private static final int FAILED_TRANSFER_FILE = -3;
-    private static final int MAX_TRY_COUNT = 5;
-    private static final int MAX_TRY_FILE_COUNT = 5;
+    private static final int MAX_TRY_COUNT = 10;
+    private static final int MAX_TRY_FILE_COUNT = 10;
 
-    private static String HOSTNAME = "31.131.18.161";
+    private static String HOSTNAME = "127.0.0.1";
     private static String user = "getpicbot";
     private static String pass = "k_lt45mm";
     private static String resource = "Smack";

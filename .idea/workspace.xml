@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac3a874a-b657-4930-81a5-1aa684119762" name="Default" comment="">
+    <list default="true" id="ac3a874a-b657-4930-81a5-1aa684119762" name="Default" comment="local server">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/GetPicBot_jar/GetPicBot.jar" afterPath="$PROJECT_DIR$/libs/GetPicBot_jar/GetPicBot.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ra1ph/MainThread.java" afterPath="$PROJECT_DIR$/src/com/ra1ph/MainThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -28,7 +28,7 @@
     <file path="$PROJECT_DIR$/../GetPic/GetPic/src/com/ra1ph/getpic/service/GetpicIQProvider.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371629412424" ignored="false" />
     <file path="/GetpicIQProvider.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372057666533" ignored="false" />
     <file path="/fragment.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372229567834" ignored="false" />
-    <file path="/Dummy.txt" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372242066315" ignored="false" />
+    <file path="/Dummy.txt" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372249213193" ignored="false" />
     <file path="$PROJECT_DIR$/../millionagents-android/src/ru/millionagents/TaskDetailActivity.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
     <file path="$PROJECT_DIR$/../millionagents-android/src/ru/millionagents/StartActivity.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
     <file path="$PROJECT_DIR$/../millionagents-android/src/ru/millionagents/api/request/DownloadTaskRequest.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
@@ -110,6 +110,7 @@
     <file path="$USER_HOME$/git/GetPic/GetPic/src/com/ra1ph/getpic/service/XMPPService.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372228829381" ignored="false" />
     <file path="$USER_HOME$/git/millionagents-android/AndroidManifest.xml" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372241344720" ignored="false" />
     <file path="$USER_HOME$/git/millionagents-android/src/ru/millionagents/TasksSubAdapter.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372241344720" ignored="false" />
+    <file path="$USER_HOME$/git/GetPic/.idea/workspace.xml" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372243969490" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -298,6 +298,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -310,11 +311,9 @@
       <file leaf-file-name="MainThread.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ra1ph/MainThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="287" column="35" selection-start="12052" selection-end="12052" vertical-scroll-proportion="0.3319149">
+            <state line="50" column="29" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.75977653">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7002#8493#0" expanded="true" />
-                <element signature="e#8482#8483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -323,7 +322,7 @@
       <file leaf-file-name="OutgoingFileTransfer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../smack_src_3_3_0/source/org/jivesoftware/smackx/filetransfer/OutgoingFileTransfer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="47" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-8.84">
+            <state line="34" column="47" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -333,9 +332,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/ra1ph/GetpicExtensionProvider.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -353,11 +350,7 @@
         <entry file="file://$PROJECT_DIR$/../smack_src_3_3_0/source/org/jivesoftware/smackx/packet/MessageEvent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="330" column="8" selection-start="12576" selection-end="12630" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#6345#6353#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -400,10 +393,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1272" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="height" value="1012" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -431,6 +424,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -588,7 +582,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -598,7 +591,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/git/GetPic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -761,7 +754,11 @@
       <created>1372242077742</created>
       <updated>1372242077742</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="local server">
+      <created>1372243906785</created>
+      <updated>1372243906785</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -785,14 +782,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="1272" y="-8" width="1296" height="1012" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39620402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -801,8 +798,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19529983" sideWeight="0.60379595" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19529983" sideWeight="0.67368424" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3263158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -852,7 +849,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="new artefacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="local server" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -874,6 +871,7 @@
     <MESSAGE value="new artifact&#10;" />
     <MESSAGE value="[add] message extensions + erors getpic&#10;" />
     <MESSAGE value="new artefacts" />
+    <MESSAGE value="local server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -926,35 +924,25 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/smack.jar!/org/jivesoftware/smack/util/PacketParserUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="64" selection-start="2905" selection-end="2905" vertical-scroll-proportion="0.3505618">
-          <folding />
-        </state>
+        <state line="39" column="64" selection-start="2905" selection-end="2905" vertical-scroll-proportion="0.3505618" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../smack_src_3_3_0/source/org/jivesoftware/smackx/packet/MessageEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="330" column="8" selection-start="12576" selection-end="12630" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6345#6353#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/smack.jar!/org/jivesoftware/smack/packet/Packet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="35" selection-start="3152" selection-end="3152" vertical-scroll-proportion="0.63595504">
-          <folding />
-        </state>
+        <state line="70" column="35" selection-start="3152" selection-end="3152" vertical-scroll-proportion="0.63595504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/GetpicExtensionProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -967,9 +955,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/smackx.jar!/org/jivesoftware/smackx/filetransfer/OutgoingFileTransfer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.19101124">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.19101124" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../smack_src_3_3_0/source/org/jivesoftware/smackx/filetransfer/FileTransfer.java">
@@ -981,18 +967,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../smack_src_3_3_0/source/org/jivesoftware/smackx/filetransfer/OutgoingFileTransfer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="47" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-8.84">
+        <state line="34" column="47" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/MainThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="287" column="35" selection-start="12052" selection-end="12052" vertical-scroll-proportion="0.3319149">
+        <state line="50" column="29" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.75977653">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7002#8493#0" expanded="true" />
-            <element signature="e#8482#8483#0" expanded="true" />
           </folding>
         </state>
       </provider>
