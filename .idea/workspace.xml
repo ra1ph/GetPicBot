@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac3a874a-b657-4930-81a5-1aa684119762" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ra1ph/MainThread.java" afterPath="$PROJECT_DIR$/src/com/ra1ph/MainThread.java" />
+      <change type="DELETED" beforePath="D:\Server\GetPicBot\libs\GetPicBot_jar\GetPicBot.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GetPicBot.iws" />
@@ -27,7 +27,7 @@
     <file path="$PROJECT_DIR$/../GetPic/GetPic/src/com/ra1ph/getpic/service/GetpicIQProvider.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371629412424" ignored="false" />
     <file path="/GetpicIQProvider.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372057666533" ignored="false" />
     <file path="/fragment.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372229567834" ignored="false" />
-    <file path="/Dummy.txt" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372229689900" ignored="false" />
+    <file path="/Dummy.txt" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1372235981339" ignored="false" />
     <file path="$PROJECT_DIR$/../millionagents-android/src/ru/millionagents/TaskDetailActivity.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
     <file path="$PROJECT_DIR$/../millionagents-android/src/ru/millionagents/StartActivity.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
     <file path="$PROJECT_DIR$/../millionagents-android/src/ru/millionagents/api/request/DownloadTaskRequest.java" changelist="ac3a874a-b657-4930-81a5-1aa684119762" time="1371631954094" ignored="false" />
@@ -322,7 +322,7 @@
       <file leaf-file-name="MainThread.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ra1ph/MainThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="53" selection-start="5811" selection-end="5811" vertical-scroll-proportion="0.5723404">
+            <state line="151" column="93" selection-start="5690" selection-end="5690" vertical-scroll-proportion="0.5">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6493#7984#0" expanded="true" />
@@ -688,7 +688,11 @@
       <created>1372229695225</created>
       <updated>1372229695225</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new artefacts">
+      <created>1372235986796</created>
+      <updated>1372235986796</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -713,7 +717,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -728,7 +732,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19529983" sideWeight="0.60379595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19529983" sideWeight="0.60379595" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -779,7 +783,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] message extensions + erors getpic&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="new artefacts" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -800,6 +804,7 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/ra1ph/GetPicBot&#10;" />
     <MESSAGE value="new artifact&#10;" />
     <MESSAGE value="[add] message extensions + erors getpic&#10;" />
+    <MESSAGE value="new artefacts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -908,7 +913,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/MainThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="53" selection-start="5811" selection-end="5811" vertical-scroll-proportion="0.5723404">
+        <state line="151" column="93" selection-start="5690" selection-end="5690" vertical-scroll-proportion="0.5">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6493#7984#0" expanded="true" />
