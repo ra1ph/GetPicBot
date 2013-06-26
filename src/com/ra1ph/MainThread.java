@@ -38,6 +38,8 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
 
     public static final String GET_PHOTO_TAG = "get_photo";
     private static final int FAILED_TRANSFER_FILE = -3;
+    private static final int MAX_TRY_COUNT = 5;
+    private static final int MAX_TRY_FILE_COUNT = 5;
 
     private static String HOSTNAME = "127.0.0.1";
     private static String user = "getpicbot";
@@ -135,20 +137,20 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
         //To change body of implemented methods use File | Settings | File Templates.
 
         if (packet instanceof Message) {
-            if (((Message) packet).getExtension(GetPicEvent.NAMESPACE)!=null){
+            if (((Message) packet).getExtension(GetPicEvent.NAMESPACE) != null) {
                 GetPicEvent event = (GetPicEvent) ((Message) packet).getExtension(GetPicEvent.NAMESPACE);
-                if(event.isGetPictureRequest()){
+                if (event.isGetPictureRequest()) {
                     sendSubmit(packet.getFrom());
                     String error = getFile(packet.getFrom());
-                    if(error!=null){
-                        System.out.println("Error: "+error);
+                    if (error != null) {
+                        System.out.println("Error: " + error);
                         Message msg = new Message();
                         msg.setTo(packet.getFrom());
                         GetPicEvent new_event = new GetPicEvent();
                         new_event.setError(error);
                         msg.addExtension(new_event);
                         connection.sendPacket(msg);
-                    }else{
+                    } else {
                         Message msg = new Message();
                         msg.setTo(packet.getFrom());
                         GetPicEvent new_event = new GetPicEvent();
@@ -157,7 +159,7 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
                         connection.sendPacket(msg);
                     }
                 }
-            }else if (((Message) packet).getBody() != null) {
+            } else if (((Message) packet).getBody() != null) {
                 Message msg = (Message) packet;
                 Message message = new Message();
                 message.setFrom(msg.getTo());
@@ -246,9 +248,15 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
                 if (files.next()) {
                     filename = files.getString("filename");
                     String userFrom = files.getString("user_id");
-                    if(transferFile(new File(dir, filename), user_id, userFrom))return null;
-                    else return Integer.toString(FAILED_TRANSFER_FILE);
-                }else return Integer.toString(FAILED);
+                    int try_count = 0;
+                    while (true) {
+                        if (transferFile(new File(dir, filename), user_id, userFrom)) return null;
+                        else {
+                            try_count++;
+                            if (try_count > MAX_TRY_FILE_COUNT) return Integer.toString(FAILED_TRANSFER_FILE);
+                        }
+                    }
+                } else return Integer.toString(FAILED);
 
             } else return Integer.toString(FAILED_NO_PHOTOS);
 
@@ -260,6 +268,8 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
 
     private boolean transferFile(File file, String user_id, String userFrom) {
         OutgoingFileTransfer transfer = fManager.createOutgoingFileTransfer(user_id);
+        int try_count = 0;
+        double progress = 0;
         try {
             transfer.sendFile(file, userFrom);
         } catch (XMPPException e) {
@@ -268,6 +278,13 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
         while (!transfer.isDone()) {
             if ((transfer.getException() == null) && (transfer.getStatus().equals(FileTransfer.Status.complete)))
                 return true;
+            if (progress == transfer.getProgress()) {
+                try_count++;
+                if (try_count > MAX_TRY_COUNT) return false;
+            } else {
+                progress = transfer.getProgress();
+                try_count = 0;
+            }
             try {
                 Thread.sleep(SLEEP_TIME);
             } catch (InterruptedException e) {
