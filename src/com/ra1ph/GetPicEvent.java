@@ -14,10 +14,12 @@ public class GetPicEvent implements PacketExtension {
     public final static String ELEMENT_ROOT="x";
     public static final String GET_PIC_REQUEST = "getpicrequest";
     public static final String ERROR_TAG = "error";
+    private static final String GET_PIC_SUBMIT = "getpicsubmit";
 
     private String id;
     private String error=null;
     private boolean getpicture=false;
+    private boolean getPictureSubmit=false;
 
     public void setPacketID(String id){
         this.id=id;
@@ -69,8 +71,10 @@ public class GetPicEvent implements PacketExtension {
         if (isComposing())
             buf.append("<").append(MessageEvent.COMPOSING).append("/>");
         // Add the id tag only if the MessageEvent is a notification message (not a request) */
-        if(isGetPictureRequest())
+        if (isGetPictureRequest())
             buf.append("<").append(GetPicEvent.GET_PIC_REQUEST).append("/>");
+        if (isGetPictureSubmit())
+            buf.append("<").append(GetPicEvent.GET_PIC_SUBMIT).append("/>");
         if (getError() != null)
             buf.append("<error>").append(getError()).append("</error>");
         if (getPacketID() != null)
@@ -85,5 +89,13 @@ public class GetPicEvent implements PacketExtension {
 
     public void setGetPictureRequest(boolean getpicture){
         this.getpicture = getpicture;
+    }
+
+    public boolean isGetPictureSubmit() {
+        return getPictureSubmit;
+    }
+
+    public void setPictureSubmit(boolean b){
+        getPictureSubmit = b;
     }
 }

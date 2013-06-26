@@ -264,6 +264,8 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
             }
 
         }
+        if ((transfer.getException() == null) && (transfer.getStatus().equals(FileTransfer.Status.complete)))
+            return true;
         return false;
     }
 
