@@ -37,6 +37,7 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
     public static final String ACTION_TAG = "action";
 
     public static final String GET_PHOTO_TAG = "get_photo";
+    private static final int FAILED_TRANSFER_FILE = -3;
 
     private static String HOSTNAME = "127.0.0.1";
     private static String user = "getpicbot";
@@ -146,6 +147,13 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
                         new_event.setError(error);
                         msg.addExtension(new_event);
                         connection.sendPacket(msg);
+                    }else{
+                        Message msg = new Message();
+                        msg.setTo(packet.getFrom());
+                        GetPicEvent new_event = new GetPicEvent();
+                        new_event.setError("Success!");
+                        msg.addExtension(new_event);
+                        connection.sendPacket(msg);
                     }
                 }
             }else if (((Message) packet).getBody() != null) {
@@ -227,9 +235,10 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
                 if (files.next()) {
                     filename = files.getString("filename");
                     String userFrom = files.getString("user_id");
-                    transferFile(new File(dir, filename), user_id, userFrom);
-                }
-                return null;
+                    if(transferFile(new File(dir, filename), user_id, userFrom))return null;
+                    else return Integer.toString(FAILED_TRANSFER_FILE);
+                }else return Integer.toString(FAILED);
+
             } else return Integer.toString(FAILED_NO_PHOTOS);
 
         } catch (SQLException e) {
