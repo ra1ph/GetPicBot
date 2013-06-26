@@ -7,11 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/out/artifacts/GetPicBot_jar" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out" isTestSource="false" />
     </content>
-    <orderEntry type="library" name="smackx" level="project" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="smack" level="project" />
     <orderEntry type="library" name="mysql" level="project" />
+    <orderEntry type="library" name="smack" level="project" />
   </component>
 </module>
 

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="merge">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/build/merge/jzlib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/build/merge/org.xbill.dns_2.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/build/merge/xpp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

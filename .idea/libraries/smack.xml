@@ -2,6 +2,7 @@
   <library name="smack">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libs/smack.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/smackx.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

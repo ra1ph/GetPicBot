@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GetPicBot.iml" filepath="$PROJECT_DIR$/GetPicBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../smack_src_3_3_0/smack_src_3_3_0.iml" filepath="$PROJECT_DIR$/../smack_src_3_3_0/smack_src_3_3_0.iml" />
     </modules>
   </component>
 </project>

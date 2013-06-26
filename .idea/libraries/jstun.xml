@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jstun">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/jingle/extension/build/merge/jstun.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

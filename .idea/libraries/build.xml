@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="build">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/build/build/java-xmlbuilder-0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/build/build/xmlunit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/build/build/biz.aQute.bnd.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

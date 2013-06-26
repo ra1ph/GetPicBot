@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/jingle/extension/build/lib/commons-logging-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/jingle/extension/build/lib/commons-logging-adapters-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/jingle/extension/build/lib/commons-logging-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/jingle/extension/build/lib/jmf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/jingle/extension/build/lib/Speex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/jingle/extension/build/lib/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/jingle/extension/build/lib/jspeex-0.9.7-jfcom.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

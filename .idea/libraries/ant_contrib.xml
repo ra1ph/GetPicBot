@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="smackx">
+  <library name="ant-contrib">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libs/smackx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../smack_src_3_3_0/build/ant-contrib.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
