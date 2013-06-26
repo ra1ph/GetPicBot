@@ -138,6 +138,7 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
             if (((Message) packet).getExtension(GetPicEvent.NAMESPACE)!=null){
                 GetPicEvent event = (GetPicEvent) ((Message) packet).getExtension(GetPicEvent.NAMESPACE);
                 if(event.isGetPictureRequest()){
+                    sendSubmit(packet.getFrom());
                     String error = getFile(packet.getFrom());
                     if(error!=null){
                         System.out.println("Error: "+error);
@@ -164,6 +165,16 @@ public class MainThread implements Runnable, FileTransferListener, PacketListene
                 message.setBody(msg.getBody());
             }
         }
+    }
+
+    private void sendSubmit(String uid) {
+        //To change body of created methods use File | Settings | File Templates.
+        Message msg = new Message();
+        GetPicEvent event = new GetPicEvent();
+        event.setPictureSubmit(true);
+        msg.addExtension(event);
+        msg.setTo(uid);
+        connection.sendPacket(msg);
     }
 
     @Override
